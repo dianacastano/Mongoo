@@ -165,16 +165,16 @@ let alumno4 = new StudentModel(
 
 // Todos los profesores de un alumno.
 
-StudentModel.find({firstName:"Telma"})
-.then(function(items){
-    let asignatura = items[0].marks
-    for (let i = 0; i < asignatura.length; i++) {
-        console.log("Profesores de Telma : " + asignatura[i].subject.teachers)
-    }
-})
-.catch(function(err){
-    console.log("Error" + err);
-})
+// StudentModel.find({firstName:"Telma"})
+// .then(function(items){
+//     let asignatura = items[0].marks
+//     for (let i = 0; i < asignatura.length; i++) {
+//         console.log("Profesores de Telma : " + asignatura[i].subject.teachers)
+//     }
+// })
+// .catch(function(err){
+//     console.log("Error" + err);
+// })
 
 
 
