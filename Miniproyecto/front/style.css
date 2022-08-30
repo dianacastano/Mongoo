@@ -1,0 +1,63 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* Modificando estilos html */
+label {
+    font-size: .8rem;
+}
+
+/* Elemento HTML */
+p {
+    margin: 0;
+}
+
+th, tr {
+    user-select: none;
+}
+
+/* Estilos propios */
+.fila-resultados {
+    font-size: 12px;
+}
+.fila-resultados:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+/* Bootstrap modificados */
+.bg-success {
+    background-color: rgb(40, 225, 40)!important;
+}
+
+.bg-warning {
+    background-color: rgb(245, 239, 75)!important;
+}
+
+.bg-danger {
+    background-color: rgb(245, 80, 80)!important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0px 0px 6px 6px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: white;
+}
+
+/* En contexto lg quitamos el padding top/bottom de los links para que la barra de navegación no tenga tanta altura */
+@media screen and (min-width: 992px) { 
+    .nav-link {
+        padding: 0rem 1rem;
+    }    
+}
+
+/* Modificando estilos de Bootsrap */
+.form-check-input {
+    width: 0.8em;
+    height: 0.8em;
+    margin-top: 0.5em;
+}
